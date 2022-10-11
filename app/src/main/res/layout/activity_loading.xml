@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loading"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#2341d8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animlottie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_autoPlay="true"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true"
+        app:lottie_fileName="2.json"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animlottie1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true"
+        app:lottie_fileName="3.json"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animlottie2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true"
+        app:lottie_fileName="5.json"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animlottie3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true"
+        app:lottie_fileName="22.json"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animlottie4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true"
+        app:lottie_fileName="32.json"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animlottie5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true"
+        app:lottie_fileName="54.json"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animlottie6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true"
+        app:lottie_fileName="66.json"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animlottie7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true"
+        app:lottie_fileName="222.json"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animlottie8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true"
+        app:lottie_fileName="book.json"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animlottie9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true"
+        app:lottie_fileName="data.json"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animlottie10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true"
+        app:lottie_fileName="loading.json"/>
+
+    </LinearLayout>
+
+</ScrollView>

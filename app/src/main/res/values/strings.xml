@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">DUZones</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">DU Zones</string>
+    <string name="nav_header_subtitle">Providing Helpful Interface</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Name:</string>
+    <string name="email">Email:</string>
+    <string name="duzone">DUZONE</string>
+    <string name="logoimage">logoimage</string>
+    <string name="aboutapptext">This educational application titled as DUZones is developed by Bsc(H) Computer Science students for Undergraduate students pursuing"\n"B.Sc(H)"\n"B.Com(H)"\n"B.A."\n"who are continuously in need of study material for their respective courses.</string>
+
+    <string name="ans1">You can register online for all undergraduate courses through the admission portal URL http://admission.du.ac.in and follow the guidelines to proceed.</string>
+    <string name="q1">How I can register myself for admission to undergraduate courses in University of Delhi?</string>
+
+    <string name="ans2">No, there’s no offline form.</string>
+    <string name="q2">I have registered online on the DU undergraduate (UG) online portal. Do I still need to fill up the offline form for undergraduate admission?</string>
+
+    <string name="ans3">Yes, you may select all programmes/courses of your interest through a single online registration form. It is important to note
+that you can apply in all merit based as well as entrance based courses through the same online application.</string>
+    <string name="q3">Can I apply in multiple programmes/courses in an online form?</string>
+
+    <string name="ans4">No, the applicant can’t change/update the information once the fee is submitted.</string>
+    <string name="q4">Is it possible to change/update the information provided by the applicant in the online application form, once the fee is submitted?</string>
+
+    <string name="ans5">No, the portal allows you to register only once. However, you can rectify error by logging again into your account through the “Edit” button at the end of each session/page till the online registration portal is open and the fee is not paid.</string>
+    <string name="q5">I made an error in my online registration form. Do I need to register again using different email-id ?</string>
+
+    <string name="ans6">The payment is accepted online only through credit card/debit card/Net Banking/UPI.</string>
+    <string name="q6">How to pay registration fee on DU UG Portal?</string>
+
+    <string name="ans7">You can apply for ECA and Sports quota by selecting appropriate options in registration form. There is an additional fee of Rs. 100 each for applying under ECA or Sports quota</string>
+    <string name="q7">How does one apply through the ECA or Sports quota? Is there a separate fee for applying to these quotas?</string>
+
+    <string name="ans8">No, once you have paid the fee, you will not be able to apply under ECA/Sports Category.</string>
+    <string name="q8">Is it possible to apply under ECA/Sports Category once I have paid my registration fee.</string>
+
+    <string name="ans9">Please ensure that you have:\n1.Completed the mandatory fields (marked with red asterisk) on every page.\n2.You have uploaded the required documents under the section ‘Uploads’.</string>
+    <string name="q9">Why am I not able to preview my application and also not able to pay the fee?</string>
+
+    <string name="ans10">No, there is no disadvantage for gap year students and they would be treated at par with regular students. They should meet the requisite criteria for admission and must possess the necessary documents/certificates.</string>
+    <string name="q10">Will there be any disadvantage for gap year students?</string>
+
+    <string name="ans11">Admissions in the colleges are not based on first come first serve policy. Instead, the applicant who has filled the online registration form and satisfies the criteria and cut -off for a particular programme/course in a particular college will be considered for admission as per the schedule of admission specified.</string>
+    <string name="q11">Will the applicants be given admission on a first come, first serve policy after declaration of cut-offs?</string>
+
+    <string name="q12">I did not have Mathematics in class 12th. Can I opt for \nB.A (H) Economics  \nB.Com (H)\nBMS/BBA(FIA)\nBA (H) Business Economics?</string>
+    <string name="ans12">No, without Mathematics, you are not eligible for above courses.</string>
+
+    <string name="ans13">No, you cannot take admission simultaneously in two different courses or same courses in different colleges. In case you take admission at two places, your admission will be cancelled from both the colleges/courses.</string>
+    <string name="q13">Can I take admission in two different courses or same course in different colleges after declaration of a cut off?</string>
+
+    <string name="ans14">Yes, you can get admission in a regular college provided you have applied in an available programme/course and meet the cut-off criteria.</string>
+    <string name="q14">I have completed my class 12th from NIOS (National Institute of Open Schooling). Can I get admission in a regular college?</string>
+
+    <string name="ans15">Yes, if you are applying under any reserved category (SC/ST/OBC/PwD), then you must have the latest Caste/Tribe/PwD certificate in the name of candidate. The OBC certificate must also specify that candidate belong s to non-creamy layer and the caste is listed in the Central Government list.</string>
+    <string name="q15">Is it important to have caste or tribe certificate in the name of a candidate/applicant?</string>
+
+    <string name="q16">If my result is awaited, Can I submit the online registration form?</string>
+    <string name="ans16">Yes, you can submit the online registration form by choosing “Awaited” in the drop-down menu of “Result Status” on “Academic Details” page/section while entering the information. However, you will have to fulfill the minimum eligibility criteria/meeting cut-off list of that course/college during the stipulated period.</string>
+
+    <string name="previous_year_papers">Previous Years</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_collegeinfonew">colfrag1</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+</resources>

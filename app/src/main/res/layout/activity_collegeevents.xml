@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".collegeevents"
+    android:orientation="vertical"
+    android:background="#313131">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/applybutton"
+            android:layout_width="109dp"
+            android:layout_height="31dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/roundrecblue"
+            android:text="Filter"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/radiolayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingEnd="5dp"
+        >
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/call"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:checked="true"
+
+                android:text="All"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/cmusic"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="Music"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/cdance"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="Dance"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/cfun"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="Fun"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/cphoto"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="Photo"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+
+            <RadioButton
+                android:id="@+id/cart"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="Art"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/ctech"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="Tech"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+
+            <RadioButton
+                android:id="@+id/cseminars"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="Seminars"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+
+            <RadioButton
+                android:id="@+id/cothers"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="Others"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#212121"
+        android:divider="#fc313131"
+        android:dividerHeight="20dp"
+        android:fastScrollAlwaysVisible="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

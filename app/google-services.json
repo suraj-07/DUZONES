@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "201102530713",
+    "firebase_url": "https://du-zones.firebaseio.com",
+    "project_id": "du-zones",
+    "storage_bucket": "du-zones.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201102530713:android:962a9fc114557441",
+        "android_client_info": {
+          "package_name": "duzones.creativednas.com.duzones"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201102530713-t85utf3pn6nsidt79dse9p39v55qvjls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "duzones.creativednas.com.duzones",
+            "certificate_hash": "b2e96fca9e23ddb2263cf4ed5f481ad1c19aa2c2"
+          }
+        },
+        {
+          "client_id": "201102530713-8qoinf8bq01vdreucip9k3rdbkpktl0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0EaEqsB79Tdq6Epf0C-LDIzzRga9fPFQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201102530713-8qoinf8bq01vdreucip9k3rdbkpktl0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

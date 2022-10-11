@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greylight_"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    tools:context=".datesheet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_syllabus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:elevation="10dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardElevation="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#212121"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="5dp"
+                android:text="Final date sheet of Choice Based Credit System (Semester II/IV/VI) Exams May-2019"
+                android:textColor="@color/colorAccent"
+                android:textSize="22dp" />
+            
+            
+            
+        </android.support.v7.widget.CardView>
+
+
+        
+
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="B.SC.(H) SEM.II/IV/VI"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>/>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="BA(H) SEM.II/IV/VI"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>/>
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="BAP SEM.II/IV/VI"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>/>
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="BCOM H Sem.II/IV/VI"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>/>
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="BCOM Sem.II/IV/VI"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>/>
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="BSC(P) Sem.II/IV/VI"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="BSc Mathematical Science Sem.II/IV/VI"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>/>
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Date-Sheet Ability Enchacement Sem. II"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>/>
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Date-Sheet Generic Elective Sem.II-IV"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>/>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_syllabus2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:elevation="10dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardElevation="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#212121"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="5dp"
+                android:text="Final date sheet of (Three Year Under Graduate Courses (Semester-II/IV/VI) Exams May-2019"
+                android:textColor="@color/colorAccent"
+                android:textSize="22dp" />
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/b10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="B.A. (Hons) Programme Semester-II/IV/VI"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>
+            />
+
+
+        <Button
+            android:id="@+id/b11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="B.Com. (Hons) Programme Semester-II/IV/VI"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>/>
+
+        <Button
+            android:id="@+id/b12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="B.Sc. (Hons) Programme Semester-II/IV/VI"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>/>
+
+        <Button
+            android:id="@+id/b13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="B.Sc. (Programme) Semester-II/IV/VI"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>/>
+
+        <Button
+            android:id="@+id/b14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="B.Sc. (Hons) Mathematics Semester-II/IV/VI"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>/>
+
+        <Button
+            android:id="@+id/b15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="B.Sc. Mathematical Sciences Semester-II/IV/VI"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>/>
+
+        <Button
+            android:id="@+id/b16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:textAlignment="textStart"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="B.Com. Semester-II/IV/VI"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/b17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="B.A. (Programme) Semester-II/IV/VI"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>/>
+
+        <Button
+            android:id="@+id/b18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="0.3dp"
+            android:background="#3c3c3c"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Environmental Studies Semester-II"
+            android:textColor="@color/white_"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:padding="10dp"/>/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

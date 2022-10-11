@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardElevation="15dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="#353535"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#353535"
+        android:orientation="vertical"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_pdf" />
+            <ImageView
+                android:layout_width="3dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/cutoffTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="3dp"
+                android:text="Cut off 1"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

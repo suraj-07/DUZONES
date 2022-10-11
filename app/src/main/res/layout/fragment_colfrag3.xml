@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".colfrag3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffff">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                android:background="#ffff"
+                android:layout_marginVertical="15dp"
+                android:layout_marginHorizontal="10dp">
+                <ImageView
+                    android:id="@+id/college_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:background="@drawable/coverup"
+                    android:elevation="20dp"
+                    android:scaleType="fitXY" />
+            </android.support.v7.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/collegename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="#ffffff"
+                android:padding="3dp"
+                android:text="College Name Here"
+                android:textColor="#7c7c7c"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/coursesname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="#ffffff"
+                android:padding="3dp"
+                android:text="courses Name Here"
+                android:textColor="#7c7c7c"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginHorizontal="18dp"
+                android:background="#7c7c7c"/>
+
+
+            <TextView
+                android:id="@+id/coursesavailable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/roundrecgreystroke"
+                android:padding="5dp"
+                android:text="Courses Available"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/detailedcourses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="15dp"
+                android:background="@drawable/roundrecsmall"
+                android:padding="10dp"
+                android:text="   "
+                android:textAlignment="textStart"
+                android:textColor="#7c7c7c"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
